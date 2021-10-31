@@ -1,0 +1,30 @@
+1 ------- Installation -----------------
+-->sudo usermod -aG docker tpdocker :  Cette commande renvoie une erreur "l'utilisateur usermod n'existe pas". Je n'ai donc pas été obligé de faire pour termier ce TP
+
+--> docker run hello-word :  Crée l'image 'hello-word'
+
+--> docker ps -a : Affiche un tableau informatif avec  l'id des container, l'image , command, le status, le port et le temps depuis la création.
+
+--> docker run -it --rm ubuntu:xenial /bin/bash : lance ubuntu:xenial
+
+--> docker ps liste les container et docker ps -a liste tous les container  en cours d'execussion
+
+--> ps -edf : Il y a un UID root avec TIME CMD ps -edf
+
+--> exit
+
+--> le status donne dit que le container avait été lancé il y a un certain temps
+
+-->  docker images : REPOSITORY          TAG       IMAGE ID       CREATED        SIZE
+
+-->  docker search mysql : recherche l'image 'mysql'
+
+--> docker images :  Affiche les images Docker
+
+--> docker pull mysql : Extrait l'image 'mysql'
+
+
+--> docker ps -a : Affiche tous les conteneurs en cours d'execution
+
+
+Bien joué ! Tu as fais ton premier DockerFile :)
